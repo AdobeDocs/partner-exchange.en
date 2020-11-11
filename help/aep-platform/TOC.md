@@ -4,6 +4,7 @@ product: adobe experience cloud
 sub-product: partner exchange
 audience: partner
 user-guide-title: Adobe Exchange - Integration Guides
+user-guide-description: Adobe Exchange Integration Guides
 ---
 
 # Adobe Exchange - Integration Guides {#integration-guides}
