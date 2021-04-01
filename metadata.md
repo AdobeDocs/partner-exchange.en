@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution: Experience Cloud
 type: Documentation
 git-repo: https://github.com/AdobeDocs/partner-exchange.en
