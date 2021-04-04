@@ -1,8 +1,8 @@
 ---
 title: Real-time Import
 description: Import data to AEP in real-time
+exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
 ---
-
 # Streaming Data to AEP
 
 ## Overview

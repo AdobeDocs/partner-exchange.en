@@ -1,8 +1,8 @@
 ---
 title: Access and Explore the AEP Sandbox
 description: Access and Explore the AEP Sandbox
+exl-id: 62c21615-4b03-4900-a1ad-8f809c836491
 ---
-
 # Access and Explore the AEP Sandbox
 
 

@@ -1,8 +1,8 @@
 ---
 title: Batch Import
 description: Importing batch files into AEP
+exl-id: 50576b67-b3ba-498e-86f6-7e1986b76985
 ---
-
 # Importing Batch Data to AEP
 
 ## Overview
