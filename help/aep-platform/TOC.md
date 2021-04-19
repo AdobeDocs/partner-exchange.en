@@ -1,6 +1,6 @@
 ---
 cloud: Experience Cloud
-product: adobe experience cloud
+product: experience cloud
 sub-product: partner exchange
 audience: partner
 user-guide-title: Adobe Exchange - Integration Guides
