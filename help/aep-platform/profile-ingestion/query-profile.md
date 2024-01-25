@@ -5,26 +5,21 @@ exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
 ---
 # Access the Unified Profile using the Profile API
 
-## Overview
-
-The Adobe Experience Platform can access the customer profile in real-time; the [Experience Platform Real-time Customer Profile API](https://adobe.ly/2TtDHWr) has been designed for interacting with that. See this [tutorial](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html) for how to access the real-time customer profile data using the Profile API.
+The Adobe [!DNL Experience Platform] can access the customer profile in real-time; the [[!DNL Experience Platform] Real-time Customer Profile API](https://adobe.ly/2TtDHWr) has been designed for interacting with that. See this [tutorial](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html) for how to access the real-time customer profile data using the Profile API.
 
 This article will substantially reference the tutorial linked above.
 
-The [Postman collection](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) will be referenced throughout the article using the associated calls by number. More details on installing and using the Postman collection are available on the Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) page. There are also sample datasets of [loyalty](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) and [profile](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) data.
+The [Postman collection](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) is referenced throughout the article using the associated calls by number. More details on installing and using the Postman collection are available on the Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) page. There are also sample datasets of [loyalty](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) and [profile](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) data.
 
 For this section, use the Postman folder 5: Profile Lookup, 5a: Real-time lookup PROFILE data OR 5b: Real-time lookup EVENT data.
 
 ## Using the API
 
-### Authenticate to Platform
-
+### Authenticate to [!DNL Platform]
 
 See [this](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) authentication tutorial before making any of the calls below.
 
-
 ### API Path
-
 
 The platform gateway URL needed for the real-time customer profile API is: `https://platform.adobe.io/`
 
@@ -50,7 +45,7 @@ The Profile API enables access to Profiles using a identities via a GET request.
 
 ### Access Profile Data using Identity
 
-The API gives access to profile information using identity. This is done by making a GET request to /access/entities with the entity ID as one of the parameters and entity ID namespace. NOTE: Keep in mind that any request that returns 50 records will only deliver a 422 HTTP status and a message that reads “too many related identities” and the search will need to be narrowed with more parameters.
+The API gives access to profile information using identity. This is done by making a GET request to /access/entities with the entity ID as one of the parameters and entity ID namespace. NOTE: Keep in mind that any request that returns 50 records will only deliver a 422 HTTP status and a message that reads "too many related identities" and the search will need to be narrowed with more parameters.
 
 Request:
 
@@ -461,4 +456,4 @@ A successful response returns the next page of results. This example demonstrate
 
 * [Real-time Customer Profile API](https://adobe.ly/2TtDHWr)
 * [Access Real-time Customer profile data using the Profile API tutorial](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
-* [Experience Platform Authentication Guide](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)
+* [[!DNL Experience Platform] Authentication Guide](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)
