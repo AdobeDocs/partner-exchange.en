@@ -5,10 +5,7 @@ exl-id: 50576b67-b3ba-498e-86f6-7e1986b76985
 ---
 # Importing Batch Data to AEP
 
-## Overview
-
-
-AEP can ingest batch files that contain profile data from a flat file (such as parquet) or data that conforms to a known schema in the Experience Data Model (XDM) registery.
+AEP can ingest batch files that contain profile data from a flat file (such as parquet) or data that conforms to a known schema in the [!UICONTROL Experience Data Model] (XDM) registry.
 
 AEP can ingest data using batch files. The following formats are accepted: JSON, Parquet, and CSV.
 
@@ -20,7 +17,7 @@ This article will cover the following:
 * How to complete a batch
 * How to check the status of a batch
 
-The [Postman collection](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) will be referenced throughout the article using the associated calls by number. More details on installing and using the Postman collection are available on the Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) page. There are also sample datasets of [loyalty](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) and [profile](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) data.
+The [Postman collection](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) is referenced throughout the article using the associated calls by number. More details on installing and using the Postman collection are available on the Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) page. There are also sample datasets of [loyalty](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) and [profile](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) data.
 
 For all calls in this tutorial, use Postman call folders: 4: Batch Import, 4a: Batch import for PROFILE data OR 4b: Batch import for EVENT data.
 

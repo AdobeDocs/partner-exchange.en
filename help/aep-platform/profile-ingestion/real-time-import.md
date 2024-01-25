@@ -7,7 +7,7 @@ exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
 
 ## Overview
 
-Adobe Experience Platform allows for both profile and experience events to be streamed and available in near real-time. All data sent to AEP via streaming is persisted in the data lake. Data can be streamed to existing data sets or to entirely new data sets via APIs or using Adobe Launch. 
+Adobe [!DNL Experience Platform] allows for both profile and experience events to be streamed and available in near real-time. All data sent to AEP via streaming is persisted in the data lake. Data can be streamed to existing data sets or to entirely new data sets via APIs or using Adobe Launch. 
 
 This article will cover the following:
 
@@ -15,7 +15,7 @@ This article will cover the following:
 * Streaming to the XDM ExperienceEvent
 * Using AEP the Launch extension to stream
 
-The [Postman collection](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) will be referenced throughout the article using the associated calls by number. More details on installing and using the Postman collection are available on the Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) page. There are also sample datasets of [loyalty](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) and [profile](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) data.
+The [Postman collection](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) is referenced throughout the article using the associated calls by number. More details on installing and using the Postman collection are available on the Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) page. There are also sample datasets of [loyalty](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) and [profile](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) data.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ The [Postman collection](https://github.com/Adobe-Marketing-Cloud/exchange-aep-p
 
 ## Create a Streaming Connection
 
-In order to stream to AEP you must first create a streaming connection. Streaming connections will contain attributes such as the source of streaming data and whether or not you are sending in records that belong to the Experience Data Model (XDM) schemas. After creating a streaming connection you will be given a unique URL which will be used to stream data into AEP.
+To stream to AEP you must first create a streaming connection. Streaming connections contain attributes like the source of streaming data and whether or not you are sending in records that belong to the [!DNL Experience Data Model] (XDM) schemas. After creating a streaming connection, you are given a unique URL that you use to stream data into AEP.
 
 Go [here](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html) for instructions on how to create a streaming connection via API or [here](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html) for instructions on how to create a streaming connection via the UI.
 
@@ -95,7 +95,7 @@ Steps:
 
 ## Using Adobe Launch to Stream to AEP
 
-The Adobe Experience Platform Launch extension provides a way to stream to AEP via Launch. To learn more, see [this guide](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html).
+The Adobe [!DNL Experience Platform] Launch extension provides a way to stream to AEP via Launch. To learn more, see [this guide](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html).
 
 ## Reference Articles
 
