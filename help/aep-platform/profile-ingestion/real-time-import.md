@@ -1,11 +1,9 @@
 ---
-title: Real-time Import
-description: Import data to AEP in real-time
+title: Real-time import
+description: Learn how to import data to AEP in real-time.
 exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
 ---
-# Streaming Data to AEP
-
-## Overview
+# Stream data to AEP
 
 Adobe [!DNL Experience Platform] allows for both profile and experience events to be streamed and available in near real-time. All data sent to AEP via streaming is persisted in the data lake. Data can be streamed to existing data sets or to entirely new data sets via APIs or using Adobe Launch. 
 
@@ -22,7 +20,7 @@ The [Postman collection](https://github.com/Adobe-Marketing-Cloud/exchange-aep-p
 * [Authenticate to the platform](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).
 * Gather the values for required headers from the authentication tutorial linked above.
 
-## Create a Streaming Connection
+## Create a streaming connection
 
 To stream to AEP you must first create a streaming connection. Streaming connections contain attributes like the source of streaming data and whether or not you are sending in records that belong to the [!DNL Experience Data Model] (XDM) schemas. After creating a streaming connection, you are given a unique URL that you use to stream data into AEP.
 
@@ -65,7 +63,7 @@ Response:
 
 Be sure to save the ID provided in the response above for future streaming ingestion calls (the Postman collection will save this for you in the CONNECTION_ID environment variable).
 
-## Stream Profile Data to AEP
+## Stream profile data to AEP
 
 For this section, use Postman call folders: 3: Real-time import, 3a: Real-time import for PROFILE data.
 
@@ -79,7 +77,7 @@ Steps:
 1. Call the Streaming Ingestion APIs to create an XDM Individual Profile Record
 1. Retrieve the newly created profile
 
-## Stream Experience Events to AEP
+## Stream experience events to AEP
 
 For this section, use Postman call folders: 3: Real-time import, 3b: Real-time import for PROFILE data.
 
@@ -93,11 +91,11 @@ Steps:
 1. Call the Streaming Ingestion APIs to create an XDM ExperienceEvent
 1. Retrieve the newly created event
 
-## Using Adobe Launch to Stream to AEP
+## Use Experience Platform tags to stream to AEP
 
 The Adobe [!DNL Experience Platform] Launch extension provides a way to stream to AEP via Launch. To learn more, see [this guide](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html).
 
-## Reference Articles
+## Reference articles
 
 * [Data Ingestion APIs](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
 * [Streaming Ingestion Overview](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingest_overview.md)
