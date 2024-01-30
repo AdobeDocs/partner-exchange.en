@@ -1,9 +1,9 @@
 ---
-title: Create AEP Schemas and Datasets
-description: Create Schemas and Datasets
+title: Create AEP schemas and datasets
+description: Create schemas and datasets in Experience Platform.
 exl-id: a2773551-20a3-4a5b-ab53-60fa67e38ec0
 ---
-# Create Schemas and Datasets
+# Create schemas and datasets
 
 The [Postman collection](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) is referenced throughout the article using the associated calls by number. More details on installing and using the Postman collection are available on the Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) page. There are also sample datasets of [loyalty](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) and [profile](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) data.
 

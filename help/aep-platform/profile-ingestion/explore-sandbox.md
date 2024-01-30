@@ -1,9 +1,9 @@
 ---
-title: Access and Explore the AEP Sandbox
-description: Access and Explore the AEP Sandbox
+title: Access and explore the AEP sandbox
+description: Learn how to access and explore the Experience Platform sandbox.
 exl-id: 62c21615-4b03-4900-a1ad-8f809c836491
 ---
-# Access and Explore the AEP Sandbox
+# Access and explore the AEP sandbox
 
 This article covers the following:
 
@@ -15,7 +15,7 @@ This article covers the following:
 
 For a general overview of the Sandbox technology in AEP, see this [article](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html).
 
-## The Shared AEP Sandbox
+## The shared AEP sandbox
 
 Exchange partners are given access to various Adobe [!DNL Experience Cloud] products (non-AEP products like [!DNL Analytics], [!DNL Target], Platform tags, and so on) via their own Adobe [!DNL Experience Cloud] Org (non-shared). Partners are given system administrator access rights to their own Org to manage users and other permissions. Adobe [!DNL Experience Platform] (AEP) is treated differently than other Adobe sandboxes. Here are the key differences:
 
@@ -26,7 +26,7 @@ Exchange partners are given access to various Adobe [!DNL Experience Cloud] prod
 * Administration rights within this shared Org are very limited.
 * After being given access to a Sandbox on AEP, partners will see two Orgs on the Org switcher in the top right of the UI while in the Admin Console or main Experience Cloud home page. However, when signed into AEP, only the shared Org should be visible.
 
-## How to Request Access to the Shared AEP Sandbox
+## Request access to the shared AEP sandbox
 
 Submit a [support request](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new) with the following information:
 
@@ -37,13 +37,13 @@ Submit a [support request](https://adobeexchangeec.zendesk.com/hc/en-us/requests
 * Description: Provide a brief description of the integration use case(s) that require the use of an AEP sandbox
 * Be sure to also provide all of the user names and emails that should be added to the AEP sandbox. It is possible for additional users to be added after the request is made but the users will need to be added by Adobe via an additional ticket (see below).
 
-## Receiving the Email Invitation 
+## Receive the email invitation 
 
 The primary contact that requested the AEP sandbox will receive an automated email inviting them to "get started" with the Adobe [!DNL Experience Platform]. The primary contact will also have some administration privileges which are covered in the next section.
 
 Instead of selecting the "get started" button in the email, navigate directly to `https://platform.adobe.com.` Sign in with the Adobe ID that is associated with the email address in the invite or create one if it is not associated with an Adobe ID.
 
-## Inviting Additional Users
+## Invite additional users
 
 Submit a [support request](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new) with the following information:
 

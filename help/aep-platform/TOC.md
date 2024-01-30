@@ -11,8 +11,8 @@ user-guide-description: Adobe Exchange Integration Guides
 
 + [AEP Integration Prerequisite: Access and Explore the AEP Sandbox](profile-ingestion/explore-sandbox.md)
 + Data Ingestion and Profile Access {#profile-ingestion}
-  + [Integration Guide Overview](profile-ingestion/profile-integration-overview.md)
-  + [Create Schemas and Datasets](profile-ingestion/schema-and-dataset.md)
-  + [Import Batch Data](profile-ingestion/batch-import.md)
-  + [Import Real-time Data](profile-ingestion/real-time-import.md)
-  + [Access the Unified Profile](profile-ingestion/query-profile.md)
+  + [Integration guide overview](profile-ingestion/profile-integration-overview.md)
+  + [Create schemas and datasets](profile-ingestion/schema-and-dataset.md)
+  + [Import batch data](profile-ingestion/batch-import.md)
+  + [Import real-time data](profile-ingestion/real-time-import.md)
+  + [Access the unified profile](profile-ingestion/query-profile.md)

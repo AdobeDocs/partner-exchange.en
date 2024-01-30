@@ -1,6 +1,6 @@
 ---
 title: Access the Unified Profile 
-description: Using APIs to Access the Unified Profile
+description: Use APIs to Access the Unified Profile.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
 ---
 # Access the Unified Profile using the Profile API
@@ -15,11 +15,13 @@ For this section, use the Postman folder 5: Profile Lookup, 5a: Real-time lookup
 
 ## Using the API
 
+The following sections help you with authenticating to Experience Platform. Learn about the API path, header information, and more.
+
 ### Authenticate to [!DNL Platform]
 
 See [this](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) authentication tutorial before making any of the calls below.
 
-### API Path
+### API path
 
 The platform gateway URL needed for the real-time customer profile API is: `https://platform.adobe.io/`
 
@@ -27,7 +29,7 @@ The base path for the API is: `/data/core/ups/access/entities`
 
 An example of a complete path is: `https://platform.adobe.io/data/core/ups/access/entities`
 
-### Header Information
+### Header information
 
 The header must include:
 
@@ -39,11 +41,11 @@ The header must include:
 
 More information explained about the header can be found in the [tutorial](https://adobe.ly/2PTHuKv).
 
-## Access Real-time Customer Profiles using Identities
+## Access real-time customer profiles using identities
 
 The Profile API enables access to Profiles using a identities via a GET request. The sections below will follow this [guide](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html).
 
-### Access Profile Data using Identity
+### Access profile data using identity
 
 The API gives access to profile information using identity. This is done by making a GET request to /access/entities with the entity ID as one of the parameters and entity ID namespace. NOTE: Keep in mind that any request that returns 50 records will only deliver a 422 HTTP status and a message that reads "too many related identities" and the search will need to be narrowed with more parameters.
 
@@ -129,7 +131,7 @@ Response:
 }
 ```
 
-### Access Profiles by List of Identities
+### Access profiles by list of identities
 
 The API gives access to profiles using a list of identities by using a POST request to the /access/entities endpoint and providing the identities in the payload. These identities consist of an ID value (entityId) and an identity namespace (entityIdNS).
 
@@ -312,11 +314,11 @@ A successful response returns the requested fields of entities specified in the 
 }
 ```
 
-## Time Series Events
+## Time series events
 
 Partners can access time series events by the identity of the associated profile entity by making a GET request to the /access/entities endpoint.
 
-### Access Time Series Events for a Profile by Identity
+### Access time series events for a profile by identity
 
 Time series events are accessed by the identity of their associated profile entity by making a GET request to the /access/entities endpoint. This identity consists of an ID value (entityId) and an identity namespace (entityIdNS).
 
@@ -383,7 +385,7 @@ A successful response returns a paginated list of time series events and associa
 }
 ```
 
-### Pagination for Time Series Events for a Profile
+### Pagination for time series events for a profile
 
 Results are paginated when retrieving time series events. If there are subsequent pages of results, the response's _page.next parameter will contain an ID. Additionally, the response's _links.next.href parameter provides a request URI for retrieving the subsequent page.
 
@@ -452,7 +454,7 @@ A successful response returns the next page of results. This example demonstrate
 }
 ```
 
-## Reference Articles
+## Reference articles
 
 * [Real-time Customer Profile API](https://adobe.ly/2TtDHWr)
 * [Access Real-time Customer profile data using the Profile API tutorial](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
