@@ -387,7 +387,7 @@ A successful response returns a paginated list of time series events and associa
 
 ### Pagination for time series events for a profile
 
-Results are paginated when retrieving time series events. If there are subsequent pages of results, the response's _page.next parameter will contain an ID. Additionally, the response's _links.next.href parameter provides a request URI for retrieving the subsequent page.
+Results are paginated when retrieving time series events. If there are subsequent pages of results, the response's &lowbar;page.next parameter will contain an ID. Additionally, the response's &lowbar;links.next.href parameter provides a request URI for retrieving the subsequent page.
 
 Request:
 
@@ -405,7 +405,7 @@ curl -X GET \
 
 Response:
 
-A successful response returns the next page of results. This example demonstrates a response where there are no subsequent pages of results, as indicated by the empty string values of _page.next and _links.next.href.
+A successful response returns the next page of results. This example demonstrates a response where there are no subsequent pages of results, as indicated by the empty string values of &lowbar;page.next and &lowbar;links.next.href.
 
 ```
 {
