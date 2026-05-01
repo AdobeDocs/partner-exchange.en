@@ -1,7 +1,14 @@
 ---
-title: Access the Unified Profile 
+title: Access the Unified Profile
 description: Use APIs to Access the Unified Profile.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
+TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
 ---
 # Access the Unified Profile using the Profile API
 
