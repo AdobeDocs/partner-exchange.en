@@ -2,6 +2,10 @@
 title: Real-time import
 description: Learn how to import data to AEP in real-time.
 exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
+TQID: https://experienceleague.adobe.com/GvWcwNPjQdmdKSUkwvJ2EpoCKJHGvf5c1Kn4dwWRVi8
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: Experience Cloud
 ---
 # Stream data to AEP
 
